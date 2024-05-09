@@ -10,8 +10,10 @@
     margin: 32px auto;
     display: block;
     width: 50%;
+    height: 10%;
 }
 
 .botao:hover {
-    color: #95ffd4;
+    color: #fff;
+    background-color: #289e6f;
 }
