@@ -2,6 +2,7 @@
     display: block;
     margin-bottom: 8px;
     font-size: 24px;
+ 
 }
 
 .lista-suspensa select {
@@ -11,7 +12,9 @@
     border: none;
     font-size: 24px;
     padding: 24px;
-    box-sizing: border-box;
     border-radius: 5px;
-    -webkit-border-before: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; /* Para compatibilidade com navegadores modernos */
+    box-sizing: border-box;
 }
